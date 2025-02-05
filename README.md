@@ -19,6 +19,7 @@ customer-jvm-allocation
 │   │   ├── StackMemoryManager.java
 │   │   ├── MethodArea.java
 │   │   ├── DirectMemory.java
+│   │   ├── SimpleJVM.java  <-- New (Eden, Survivor, Minor GC)
 │   ├── gc/
 │   │   ├── GarbageCollector.java
 │   │   ├── YoungGenGC.java
@@ -26,7 +27,7 @@ customer-jvm-allocation
 │   ├── runtime/
 │   │   ├── JVMRuntime.java
 │   ├── App.java
-│── pom.xml (Maven 依赖)
+│── pom.xml
 ```
 
 ---
